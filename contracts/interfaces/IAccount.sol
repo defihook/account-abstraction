@@ -20,7 +20,7 @@ interface IAccount {
      *                              able to make the call. The excess is left as a deposit in the entrypoint
      *                              for future calls. Can be withdrawn anytime using "entryPoint.withdrawTo()".
      *                              In case there is a paymaster in the request (or the current deposit is high
-     *                              enough), this value will be zero.
+     *                              enough), thiss value will be zero.
      * @return validationData       - Packaged ValidationData structure. use `_packValidationData` and
      *                              `_unpackValidationData` to encode and decode.
      *                              <20-byte> sigAuthorizer - 0 for valid signature, 1 to mark signature failure,
